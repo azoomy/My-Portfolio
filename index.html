@@ -133,7 +133,7 @@
         <h2>Get In Touch With Me</h2>
         <div class="contact-form-container">
           <div class="contact-form">
-            <form action="https://formspree.io/f/xyylngw" method="POST">
+            <form action="POST" data-netlify="true">
               <div class="form-control">
                 <label for="name">Name</label>
                 <input
@@ -167,6 +167,9 @@
                   class="input-field"
                   required
                 ></textarea>
+              </div>
+              <div class="field">
+                <div data-netlify-recaptcha="true"></div>
               </div>
               <input
                 type="submit"
