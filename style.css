@@ -535,10 +535,10 @@
       /* Make sure that all arrows are pointing leftwards */
         .container::before {
           left: 60px;
-          border: medium solid black;
+          border: medium solid white;
           border-width: 10px 10px 10px 0;
           color: black;
-          border-color: transparent rgba(0, 0, 0, 0.795) transparent transparent;
+          border-color: transparent white transparent transparent;
         }
       
       /* Make sure all circles are at the same spot */
@@ -549,5 +549,8 @@
       /* Make all right containers behave like the left ones */
         .right {
           left: 0%;
+        }
+        .left {
+      text-align: left;
         }
       }
